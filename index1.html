@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            font-size: 20px;
+        }
+     
+        .name{
+            width: 100px;
+            display: inline-block;
+        }
+        .name1{
+            width: 200px;
+            float: left;
+        }
+     
+        .footer{
+            clear: both;
+            text-align: center;
+            padding-top: 10px;
+        }
+    
+        .name11{
+            display: inline-block;
+            width: 300px;
+            padding-top: 0;
+            color: #FF3333;
+        }
+        .banner{
+            float: left;
+            width: 100px;
+
+        }
+        .f-content{
+            width: 500px;
+            
+        }
+        .hobby{
+            position: relative;
+            left: 0;
+            width: 100px;
+            
+        }
+        .content{
+            padding-top: 10px;
+        }
+        .menu{
+            border: 1px #d7d6d7 solid;
+            padding: 10px 100px;
+            margin: 20px 300px;
+            width: 500px;
+        }
+        .header{
+            background-color: #ff6600;
+            color: white;
+     
+        }
+        span{
+            color: #3366FF;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <form>
+            <div class="header">
+                <h1>Sở thích của bạn</h1>
+            </div>
+            <div class="content">
+                <div class="name">
+                    <span>Họ và tên: </span>
+                </div>
+                <div class="name">
+                    <input type="text" name="ten" size="35"/>
+                </div>
+            </div>
+       
+            <div class="content">
+                <div class="name">
+                    <span>Email: </span>
+                </div>
+                <div class="name">
+                    <input type="text" name="email" size="30"/><br>
+                </div>
+            </div>
+            <br>
+            <div class="content"> 
+                <div class="banner">
+                    <span>Sở thích: </sapn>
+                </div>
+                <div class="name1">
+                    <div class="name11">
+                        <input id="a" type="checkbox" name="hobby" />
+                        <label form="a" style="width: 50px" >Thể thao  &nbsp</label>
+                        <input id="b" type="checkbox" name="hobby"/>
+                        <label form="b">Âm nhạc &nbsp&nbsp</label>    
+                        <input id="c" type="checkbox" name="hobby" />
+                        <label form="c">Đọc sách</label>                                           
+                    </div>
+                    <div class="name11">
+                        <input id="d" type="checkbox" name="hobby"/>
+                        <label form="d">Lướt Web </label>
+                        <input id="e" type="checkbox" name="hobby"/>
+                        <label for="e">Chơi game</label>
+                        <input id="g" type="checkbox" name="hobby"/>
+                        <label form="g">Điện ảnh</label>
+                    </div>
+                    <div class="name11">
+                        <input id="f" type="checkbox" name="hobby"/>
+                        <label form="f"> Du lịch</label>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <button type="submit" value="gửi tt">Gửi thông tin</button>
+                <button type="reset">Nhập lại</button>
+            </div>
+        </form>      
+    </div>
+</body>
+</html>

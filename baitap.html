@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      
+        .menu{
+            border: none;
+            background-color: 	#FFCC66;
+            width: 600px;
+            margin: 20px 270px ;
+           padding: 2px 50px;
+
+        }
+        .header{
+            background-color: turquoise;
+            color: 	#0066CC;
+            text-align: center;
+        }
+        .content{
+            font-size: 20px;
+        }
+        .name{
+            display: inline-block;
+            width: 150px;
+        }
+        .f-content{
+            margin-top: 10px;
+
+        }
+        .footer{
+         margin: 20px 155px;
+        }
+        span{
+            color: #3366FF;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <form action="">
+            <div class="header">
+                <h1>Đăng kí học viên</h1>
+            </div>
+            <div class="content">
+                <div class="f-content">
+                    <div class="name"><span>Họ và tên:</span></div>
+                    <div class="name">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="f-content">
+                    <div class="name"><span>Ngày sinh:</span></div>
+                    <div class="name">
+                        <input type="date">
+                    </div>
+                </div>
+                <div class="f-content">
+                    <div class="name"><span>Giới tính:</span></div>
+                    <div class="name">
+                        <input type="radio" name="gioitinh"  id="nam">
+                        <label for="nam">Nam</label>
+                        <input type="radio" name="gioitinh"  id="nữ">
+                        <label for="nữ">Nữ</label>
+                    </div>
+                </div>
+                <div class="f-content">
+                    <div class="name"><span>Địa chỉ:</span></div>
+                    <div class="name">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="f-content">
+                    <div class="name"><span>Lớp:</span></div>
+                    <div class="name">
+                        <select name="" id="">
+                            <option value="-chonlop-">-Chọn lớp-</option>
+                            <option value="lớp10">Lớp 10</option>
+                            <option value="lớp11">Lớp 11</option>
+                            <option value="lớp12">Lớp 12</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="f-content">
+                    <div class="name"><span>Email:</span></div>
+                    <div class="name">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="f-content">
+                    <div class="name"><span>Số điện thoại:</span></div>
+                    <div class="name">
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <button type="submit">Đăng kí</button>
+                <button type="reset">Nhập lại</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
